@@ -64,7 +64,7 @@
 	--accent-font			: 'Rajdhani', sans-serif;
 	--default-font			: 'Rubik', sans-serif;
 }
-  
+
 
 /************************************/
 /**** 	   02. General css		 ****/
@@ -154,7 +154,12 @@ a:focus{
 	display: flex;
 	flex-direction: column;
 }
-
+.reveal.image-anime {
+  transform: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transition: none !important;
+}
 .image-anime{
 	position: relative;
 	overflow: hidden;
@@ -472,7 +477,7 @@ header.main-header .header-sticky{
 	padding: 25px 15px;
 	position: relative;
 	top: 0;
-	z-index: 100;	
+	z-index: 100;
 }
 
 header.main-header .header-sticky.hide{
@@ -2922,7 +2927,7 @@ header.main-header .header-sticky.active{
 
 .project-layout2-slider .swiper-wrapper{
 	-webkit-transition-timing-function:linear!important;
-	transition-timing-function:linear!important; 
+	transition-timing-function:linear!important;
 }
 
 .project-layout2-slide{
@@ -2939,7 +2944,7 @@ header.main-header .header-sticky.active{
     mask-image: url(../images/project-mask-img.svg);
     mask-size: cover;
     mask-position: center center;
-    mask-repeat: no-repeat;	
+    mask-repeat: no-repeat;
 }
 
 .project-layout2-slide .project-image img{
@@ -3014,7 +3019,7 @@ header.main-header .header-sticky.active{
 
 .project-layout3-slider .swiper-wrapper{
 	-webkit-transition-timing-function:linear!important;
-	transition-timing-function:linear!important; 
+	transition-timing-function:linear!important;
 }
 
 .project-slide3{
@@ -5020,7 +5025,7 @@ footer.main-footer{
 }
 
 .team-social-links h3{
-	font-size: 22px;	
+	font-size: 22px;
 }
 
 .team-social-links ul{
@@ -5078,7 +5083,7 @@ footer.main-footer{
 /******************************************/
 
 .page-404{
-	padding: 100px 0; 
+	padding: 100px 0;
 }
 
 .page-not-found-box{
@@ -5146,7 +5151,7 @@ footer.main-footer{
 
 	.overview-counter-box{
 		margin-left: 0;
-	}	
+	}
 }
 
 @media only screen and (max-width: 991px){
@@ -5214,7 +5219,7 @@ footer.main-footer{
 	.hero-content-footer{
 		margin-top: 30px;
 	}
-	
+
 	.hero.hero-slider .hero-slider-layout1 .hero-slide,
 	.hero-layout2.hero-slider .hero-slider-layout2 .hero-slide,
 	.hero-layout3.hero-slider .hero-slider-layout3 .hero-slide{
@@ -5232,7 +5237,7 @@ footer.main-footer{
 		transform: translateY(0);
 		border-radius: 12px;
 	}
-	
+
 	.hero.hero-slider .hero-slider-layout1 .hero-button-next,
 	.hero-layout2.hero-slider .hero-slider-layout2 .hero-button-next{
 		right: 20px;
@@ -5898,7 +5903,7 @@ footer.main-footer{
 }
 
 @media only screen and (max-width: 767px){
-   
+
     .btn-default{
         padding: 10px 22px;
     }
@@ -6346,23 +6351,23 @@ footer.main-footer{
 	.project-entry h1{
 		font-size: 24px;
 	}
-	
+
 	.project-entry h2{
 		font-size: 22px;
 	}
-	
+
 	.project-entry h3{
 		font-size: 20px;
 	}
-	
+
 	.project-entry h4{
 		font-size: 18px;
 	}
-	
+
 	.project-entry h5{
 		font-size: 16px;
 	}
-	
+
 	.project-entry h6{
 		font-size: 14px;
 	}
